@@ -15,14 +15,14 @@
   ],
   "has_plugins_config": "n",
   "_copy_without_render": [
-    "{{ cookiecutter.slug }}/assets",
-    "{{ cookiecutter.slug }}/bin",
-    "{{ cookiecutter.slug }}/config",
-    "{{ cookiecutter.slug }}/migrations",
-    "{{ cookiecutter.slug }}/public",
-    "{{ cookiecutter.slug }}/src",
+    "assets/**",
+    "bin/**",
+    "config/**",
+    "migrations/**",
+    "public/**",
+    "src/**",
     "templates/**",
-    "{{ cookiecutter.slug }}/tests",
-    "{{ cookiecutter.slug }}/translations"
+    "tests/**",
+    "translations/**"
   ]
 }
