@@ -1,0 +1,28 @@
+{
+  "name": "My Awesome Project",
+  "slug": "{{ cookiecutter.name.lower()|replace(' ', '-')|replace('.', '-')|trim() }}",
+  "description": "",
+  "version": "1.0.0",
+  "ui_library": [
+    "None",
+    "Bootstrap",
+    "Tailwind"
+  ],
+  "frontend_pipeline": [
+    "None",
+    "Gulp",
+    "Vite"
+  ],
+  "has_plugins_config": "n",
+  "_copy_without_render": [
+    "{{ cookiecutter.slug }}/bin",
+    "{{ cookiecutter.slug }}/config",
+    "{{ cookiecutter.slug }}/plugins",
+    "{{ cookiecutter.slug }}/resources",
+    "{{ cookiecutter.slug }}/src",
+    "{{ cookiecutter.slug }}/templates",
+    "{{ cookiecutter.slug }}/tests",
+    "{{ cookiecutter.slug }}/tmp",
+    "{{ cookiecutter.slug }}/webroot"
+  ]
+}
