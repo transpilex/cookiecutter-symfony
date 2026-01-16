@@ -21,7 +21,7 @@
     "{{ cookiecutter.slug }}/migrations",
     "{{ cookiecutter.slug }}/public",
     "{{ cookiecutter.slug }}/src",
-    "{{ cookiecutter.slug }}/templates",
+    "{{ cookiecutter.slug }}/templates/layouts",
     "{{ cookiecutter.slug }}/tests",
     "{{ cookiecutter.slug }}/translations"
   ]
